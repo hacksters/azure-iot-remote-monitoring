@@ -252,10 +252,95 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\Strings.cs.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.de.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.de.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Strings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.es.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.hu.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.hu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.it.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.ja.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.ja.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.ko.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.ko.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.nl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.pl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.pl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.pt-BR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.pt-PT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.pt-PT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.ru.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.sv.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.tr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.tr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.zh-HANS.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.zh-HANS.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.zh-HANT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.zh-HANT.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\Startup.Json.cs" />
     <Compile Include="App_Start\Startup.Autofac.cs" />
@@ -425,6 +510,7 @@
     <Content Include="Content\styles\bootstrap\mixins\text-emphasis.less" />
     <Content Include="Content\styles\bootstrap\mixins\text-overflow.less" />
     <Content Include="Content\styles\bootstrap\mixins\vendor-prefixes.less" />
+    <None Include="Properties\PublishProfiles\Web20160824114913 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
